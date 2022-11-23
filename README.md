@@ -12,7 +12,7 @@ How to call various endpoints and expected result.
 
 #### Root endpoint
 
-`curl http://localhost:8080/`
+`curl http://localhost:5000/`
 
 returns {
   "message": "Hello, World!"
@@ -20,7 +20,7 @@ returns {
 
 
 #### Endpoint /hello/{name}/
-`curl http://localhost:8080/hello/jakub/`
+`curl http://localhost:5000/hello/jakub/`
 
 returns {
   "message": "Hello there, Jakub!"
